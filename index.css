@@ -1,0 +1,28 @@
+header, footer {
+    height: 150px;
+    border: 1px solid black;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer > * {
+    display: flex;
+}
+
+main {
+    border: 1px solid black;
+    margin: 1px;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+}
+
+form {
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
